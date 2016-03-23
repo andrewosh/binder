@@ -42,7 +42,7 @@ RUN bash Anaconda2-2.4.1-Linux-x86_64.sh -b &&\
     rm Anaconda2-2.4.1-Linux-x86_64.sh
 ENV PATH $HOME/anaconda2/bin:$PATH
 RUN conda create -n python3 python=3.4 anaconda
-RUN /bin/bash -c "source activate python3 && ipython kernelspec install-self --user"
+RUN /bin/bash -c "source activate python3 && jupyter kernelspec install-self --user"
 
 RUN /home/main/anaconda2/bin/pip install --upgrade pip
 
