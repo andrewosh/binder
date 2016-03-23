@@ -206,7 +206,7 @@ class App(object):
                     app.write("RUN echo \"export PATH=/home/main/anaconda/envs/binder/bin/:$PATH\" >> ~/.binder_start\n")
                     # ensure that the jupyter notebook is available in this environment
                     app.write("RUN conda install -n binder jupyter\n")
-                    app.write("RUN /bin/bash -c \"source activate binder && ipython kernelspec install-self --user\"\n")
+                    app.write("RUN /bin/bash -c \"source activate binder && jupyter kernelspec install-self --user\"\n")
                     app.write("\n")
 
             # if any services have client code, insert that now
