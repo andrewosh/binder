@@ -24,7 +24,7 @@ Binder is a collection of tools for building and executing version-controlled co
 
 This repository does not contain any actual code, but serves as a reference for Binder information, and a place to post issues or questions about the project. All Binder components are written in `node.js` but an earlier version written in `python` can be found on the [`legacy`](https://github.com/binder-project/binder/tree/legacy) branch of this repository.
 
-See [`docs.mybinder.org`](http://docs.mybinder.org) for official documentation.
+See [`mybinder.readthedocs.io`](http://mybinder.readthedocs.io) for official documentation.
 
 ### concept
 
@@ -61,3 +61,4 @@ We've also made it easy to setup a custom Binder deployment on your own compute 
 ### contributing
 
 We welcome community contributions! You can submit issues or pull requests to the repository for the component you're interested in working on, e.g. if you have an idea for improving how dependencies are resolved, open an issue on [`binder-build`](https://github.com/binder-project/binder-build). But if you're unsure, you can just open an issue on this repository.
+
